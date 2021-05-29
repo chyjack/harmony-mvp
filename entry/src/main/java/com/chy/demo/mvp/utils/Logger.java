@@ -5,13 +5,13 @@ import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
 
 /**
- * Author: CaiHuangyu
+ * Author: chy
  * Description: 日志输出工具
  * Date: 2021-03-14
  */
 public class Logger {
 
-    private static final String TAG_LOG = "sjmy";
+    private static final String TAG_LOG = "chy-tag";
     private static final HiLogLabel LABEL_LOG = new HiLogLabel(HiLog.LOG_APP, 0, TAG_LOG);
     private static final String LOG_FORMAT = "%{public}s: %{public}s";
 

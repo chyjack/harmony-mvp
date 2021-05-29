@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * Author:CaiHuangyu
+ * Author:chy
  * Description:提供线程相关处理的类
  * Date:2017-10-26
  */
@@ -23,8 +23,8 @@ public class ThreadUtil {
     private volatile static ExecutorService mThreadPool;
     private volatile static EventHandler uiHandler;
 
-    private static Map<Object, List<Runnable>> uiTasks = new ConcurrentHashMap<>();
-    private static Map<Object, Map<Runnable, Future<?>>> subTasks = new ConcurrentHashMap<>();
+    private final static Map<Object, List<Runnable>> uiTasks = new ConcurrentHashMap<>();
+    private final static Map<Object, Map<Runnable, Future<?>>> subTasks = new ConcurrentHashMap<>();
 
     /**
      * 主线程异步执行

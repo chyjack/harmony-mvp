@@ -12,15 +12,11 @@ import ohos.agp.window.dialog.ToastDialog;
 import ohos.app.Context;
 
 /**
- * Author: CaiHuangyu
+ * Author: chy
  * Description: 自定义Toast
  * Date: 2021-03-14
  */
 public class Toast {
-
-    private static final int OFF_SET_Y = 200;
-    private static final int PADDING = 20;
-    private static final int RADIUS = 20;
 
     public static void show(Context context, String message) {
         obtainToastDialog(context, message).show();

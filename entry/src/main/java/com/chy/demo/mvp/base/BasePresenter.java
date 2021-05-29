@@ -5,7 +5,7 @@ import ohos.aafwk.ability.Ability;
 import ohos.agp.components.Component;
 
 /**
- * Author: CaiHuangyu
+ * Author: chy
  * Description: MVP框架基础View-presenter
  * Date: 2021-03-14
  */

@@ -12,7 +12,7 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
 /**
- * Author: CaiHuangyu
+ * Author: chy
  * Description: MVP框架基础View-AbilitySlice
  * Date: 2021-03-14
  */

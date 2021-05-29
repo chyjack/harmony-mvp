@@ -9,7 +9,7 @@ import ohos.global.resource.WrongTypeException;
 import java.io.IOException;
 
 /**
- * Author: CaiHuangyu
+ * Author: chy
  * Description: 鸿蒙系统资源工具类
  * Date: 2021-03-14
  */
